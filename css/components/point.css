@@ -1,0 +1,20 @@
+.point {
+  background-color: tomato;
+  display: flex;
+  width: 5px;
+  height: 5px;
+  border-radius: 5px;
+  position: absolute;
+  left: 15px;
+  bottom: 25px;
+}
+.nav__point {
+  background-color: tomato;
+  display: flex;
+  width: 5px;
+  height: 5px;
+  border-radius: 5px;
+  position: absolute;
+  left: 25px;
+  bottom: 25px;
+}
