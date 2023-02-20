@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search to KoKoa Talk</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <!--To DO: Wifi Icon-->
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <!--Battery Icon-->
+        <i class="fa-solid fa-battery-full"></i>
+        <!--Lighting Icon-->
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">Search</h1>
+      <div class="screen-header__icons">
+        <span><i class="fa-solid fa-magnifying-glass fa-2x"></i></span>
+        <span>
+          <a href="settings.html">
+            <i class="fa-solid fa-gear fa-2x"> <span class="point"></span> </i>
+          </a>
+        </span>
+      </div>
+    </header>
+
+    <main class="main-screen">
+      <div class="icon-row">
+        <div class="icon-row__icon">
+          <i class="fa-solid fa-qrcode"></i>
+          <span>QR Code</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fa-regular fa-address-book"></i>
+          <span>Add by Contacts</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fa-regular fa-id-badge"></i>
+          <span>Add by ID</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fa-regular fa-envelope"></i>
+          <span>Invite</span>
+        </div>
+      </div>
+      <div>
+        <div class="recommended-friends">
+          <h6 class="recommended-friends__title">Recommended Friends</h6>
+          <span>You have no recommended friends.</span>
+        </div>
+      </div>
+      <div>
+        <div class="open-chat">
+          <div class="open-chat__header">
+            <h4>Open Chat</h4>
+            <span>
+              Go to Openchat Home
+              <i class="fa-solid fa-chevron-right fa-xs"></i>
+            </span>
+          </div>
+        </div>
+        <div class="open-post">
+          <div class="open-post__column">
+            <h5 class="open-post__title">#Doge Coin</h5>
+            <h6 class="open-post__hashtags">#mars#x3 event#32.5</h6>
+            <div class="open-post__members">
+              <img
+                src="https://scs-phinf.pstatic.net/MjAyMjA5MTZfMjM0/MDAxNjYzMzE2OTg1OTk1.zpagt6-lbitXpMiH0Jq1NAULFZdsryey8s1Xp3X2gAAg.c6fWWZTonfw2oT9sWoiCbpRTn8e5WHgQ9sa0z_SVbUsg.JPEG/%EB%8F%84%EC%A7%80%EC%BD%94%EC%9D%B8.jpg?type=w800"
+              />
+              <span class="open-post__members-count">14.7 trillion</span>
+              <div class="divider"></div>
+              <span class="open-post__members-status">30% Sale!!</span>
+            </div>
+          </div>
+          <div class="open-post__column">
+            <div class="open-post__photo">
+              <img
+                src="https://scs-phinf.pstatic.net/MjAyMjA5MTZfMjM0/MDAxNjYzMzE2OTg1OTk1.zpagt6-lbitXpMiH0Jq1NAULFZdsryey8s1Xp3X2gAAg.c6fWWZTonfw2oT9sWoiCbpRTn8e5WHgQ9sa0z_SVbUsg.JPEG/%EB%8F%84%EC%A7%80%EC%BD%94%EC%9D%B8.jpg?type=w800"
+              />
+              <div class="open-post__heart-count">
+                <i class="fa-solid fa-heart"></i><span>1000</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="open-post">
+          <div class="open-post__column">
+            <h5 class="open-post__title"># 真夜中のドア / Stay With Me</h5>
+            <h6 class="open-post__hashtags">#city pop#matsubara miki#1980</h6>
+            <div class="open-post__members">
+              <img
+                src="https://i1.sndcdn.com/artworks-000142953437-d4fve1-t500x500.jpg"
+              />
+              <span class="open-post__members-count"> 47 million</span>
+              <div class="divider"></div>
+              <span class="open-post__members-status"> 19 million!!</span>
+            </div>
+          </div>
+          <div class="open-post__column">
+            <div class="open-post__photo">
+              <img
+                src="https://i1.sndcdn.com/artworks-000142953437-d4fve1-t500x500.jpg"
+              />
+              <div class="open-post__heart-count">
+                <i class="fa-solid fa-heart"></i><span>4.7M</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__ul">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"
+            ><i class="far fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notification badge">1</span>
+            <i class="far fa-comment fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="search.html"
+            ><i class="fas fa-magnifying-glass fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <span class="nav__point"></span>
+            <i class="fas fa-ellipsis fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+
+    <div id="no-mobbile">
+      <span>Your screen is too big :(</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/1990d9ff8d.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
