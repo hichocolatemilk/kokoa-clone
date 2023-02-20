@@ -3,6 +3,7 @@
   width: 100%;
   display: flex;
   justify-content: center;
+  top: 0;
 }
 .status-bar__column {
   width: 33%;
